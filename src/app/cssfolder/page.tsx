@@ -2,6 +2,10 @@
 
 export default function CssPage() {
     return (
-        <></>
+        <>
+            <div>
+
+            </div>
+        </>
     )
 }
