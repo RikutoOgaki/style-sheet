@@ -4,9 +4,9 @@ import style from '@/styles/components/template/button.module.scss'
 
 type Props = {
     label: string,
-    className: string | undefined,
-    onClick: () => void,
-    link: string
+    className?: string | undefined,
+    onClick?: () => void,
+    link?: string
 }
 
 export function Button(props: Props) {
