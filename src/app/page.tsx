@@ -13,15 +13,16 @@ export default function Home() {
         <div className={style.firstView}>
           <h1 className={style.title}>StyleSheet<span className={style.accent}>-Pro</span></h1>
           <div className={style.btnBox}>
-            <Button label='Learn Started →' className={style.learnStartBtn} />
+            <Button label='Learn Started →' link='./cssfolder' className={style.learnStartBtn} />
             <Button label='Git Hub' className={style.githubBtn} />
           </div>
-          <div>
-            <p>
-              ↓
-              StyleSheet-Proって？
-            </p>
+          <div className={style.scroll}>
+            <span className={style.span}>↓</span>
+            <p className={style.text}>StyleSheet-Proって？</p>
           </div>
+        </div>
+        <div className={style.explanation}>
+
         </div>
       </div>
     </>

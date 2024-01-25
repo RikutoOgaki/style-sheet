@@ -9,7 +9,7 @@ export function Header() {
         <>
             <header className={style.head}>
                 <p className={style.text}>v 1.0.0</p>
-                <Link href={'https://github.com/RikutoOgaki/style-sheet'}>
+                <Link href={'https://github.com/RikutoOgaki/style-sheet'} className={style.link}>
                     <FaGithub style={{ color: '#262626', fontSize: '1.5rem' }} />
                 </Link>
             </header>
