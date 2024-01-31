@@ -28,22 +28,25 @@ export default function Home() {
             </figure>
           </div>
           <div className={style.textBox}>
-            <h2 className={style.subtitle}>Style-Sheet<span className={style.accent}>-Pro</span></h2>
+            <h2 className={style.subTitle}>Style-Sheet<span className={style.accent}>-Pro</span>って？</h2>
             <div className={style.text}>
               <p>
-                StyleSheetを勉強したい！
-                StyleSheetを極めたい人に向けた勉強サイト！</p>
+                StyleSheetを勉強したい！<br />
+                StyleSheetを極めたい人に向けた勉強サイト！
+              </p>
               <p>
-                調べても色々な方法があり、どのサイトが正しいか
+                調べても色々な方法があり、どのサイトが正しいか<br />
                 わからないなんて経験ありませんでしたか？
               </p>
               <p>
-                そんなときにぜひ使って頂きたいのが「StyleSheet-Pro」
-                基本のCSSから、SCSS、ライブラリの内容までも
+                そんなときにぜひ使って頂きたいのが「StyleSheet-Pro」<br />
+                基本のCSSから、SCSS、ライブラリの内容までも<br />
                 勉強することのできる万能なサイト！
               </p>
             </div>
-            <Button label='Learn Started →' link='./cssfolder' className={style.learnStartBtn} />
+            <div className={style.btnBox}>
+              <Button label='Learn Started →' link='./cssfolder' className={style.learnStartBtn} />
+            </div>
           </div>
         </div>
       </div>

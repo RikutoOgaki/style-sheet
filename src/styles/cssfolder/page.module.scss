@@ -9,16 +9,18 @@
         display: flex;
         // justify-content: center;
         align-items: center;
-        padding-left: 5rem;
+        padding-left: 2rem;
         position: fixed;
         top: 0;
         left: 0;
 
         .title {
             color: #ffffff;
+            font-size: 1.5rem;
 
             .span {
                 color: #5FD8FE;
+                font-size: 1.5rem;
             }
         }
     }
