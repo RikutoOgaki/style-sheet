@@ -14,7 +14,7 @@ export default function Home() {
           <h1 className={style.title}>StyleSheet<span className={style.accent}>-Pro</span></h1>
           <div className={style.btnBox}>
             <Button label='Learn Started →' link='./cssfolder' className={style.learnStartBtn} />
-            <Button label='Git Hub' className={style.githubBtn} />
+            <Button label='Git Hub' link='https://github.com/RikutoOgaki/style-sheet' className={style.githubBtn} />
           </div>
           <div className={style.scroll}>
             <span className={style.span}>↓</span>
@@ -24,7 +24,7 @@ export default function Home() {
         <div className={style.explanation}>
           <div className={style.imgBox}>
             <figure>
-              <img src="" alt="" />
+              <img src="/img/img.png" alt="" />
             </figure>
           </div>
           <div className={style.textBox}>
